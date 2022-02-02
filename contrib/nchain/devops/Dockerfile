@@ -1,5 +1,5 @@
 #Dockerfile for building Bitcoin SV
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 LABEL maintainer=p.foster@nchain.com
 RUN apt-get update &&   \
     apt-get -y install  \
